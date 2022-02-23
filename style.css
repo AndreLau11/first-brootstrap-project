@@ -1,0 +1,7 @@
+body {
+    position: relative; 
+    background-color: #191765;
+  }
+  #portfoliocontent {padding-top:50px;height:500px;color: #fff; }
+  #aboutme {padding-top:50px;height:500px;color: #fff; }
+  #contactme {padding-top:50px;height:500px;color: #fff; }
