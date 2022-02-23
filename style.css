@@ -7,3 +7,7 @@
   background-size: cover;
 }
 
+.card>p {
+  color: #172B4D;
+}
+
