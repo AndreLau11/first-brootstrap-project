@@ -4,62 +4,55 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="style.css">
     
     <title>Document</title>
 </head>
-<body data-spy="scroll"  data-target=".navbar" data-offset="50" class="container">
-        <nav class="navbar navbar-inverse navbar-fixed-top" >
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <a class="navbar-brand">Hector Lau</a>
-                </div>
-                <div>
-                <div class="collapse navbar-collapse">
-                <ul class="nav navbar-nav">
-                        <li><a href="#portfoliocontent">Portfolio</a>
-                        </li>
-                        <li><a href="#aboutme">About</a>
-                        </li>
-                        <li><a href="#contactme">Contact</a>
-                        </li>
-                        <li><a href="#" ><img src="images/Icon - Mail.png" alt="Email icon which leads to the contact us area"></a>
-                        </li>
-                    </ul>
-                </div>
-              </div>
-                </div>
-            </div>
-        </nav>
-        <div id="portfoliocontent" class="container-fluid">
-            <h1>Portfolio</h1>
-            <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-            <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-          </div>
-          <div class="card" style="width: 18rem;">
-            <div class="card-body">
-              <img src="images/Img Plaholder.png" class="card-img-top" alt="...">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-          <div id="aboutme" class="container-fluid">
-            <h1>About</h1>
-            <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-            <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-          </div>
-          <div id="contactme" class="container-fluid">
-            <h1>Contact</h1>
-            <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-            <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-          </div>
+<body >
+       
+  <!-- main section -->
+ <div class="container-fluid main-section">
+  <nav class="nav justify-content-center">
+    <a class="nav-link" href="#">Portfolio</a>
+    <a class="nav-link" href="#">About</a>
+    <a class="nav-link" href="#">Contact</a>
+  </nav>
+  <div class="d-sm-flex flex-column align-items-center mt-5">
+      <h1 >Hey there. I’m Maen. </h1>
+      <h2 >I’m a software developer</h2>
+      <p class="p-5">I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
+        don’t hestiate to contact me.</p>
+      <img src="images/arrow-down.png" alt="down arrow">
+      <nav class="nav justify-content-center">
+        <a class="nav-link" href="#"><img src="images/github.png" alt="github link"></a>
+        <a class="nav-link" href="#"><img src="images/Linkedin.png" alt="linkedin link"></a>
+        <a class="nav-link" href="#"><img src="images/angellist.png" alt="angel list link"></a>
+        <a class="nav-link" href="#"><img src="images/twitter.png" alt="twitter link"></a>
+        <a class="nav-link" href="#"><img src="images/medium.png" alt="medium link"></a>
+      </nav>
+    </div>
+  </div>
 
+  <!-- work section -->
+  <div class="container-fluid d-flex justify-content-center mt-5 bg-primary work-section">
+    <h1>My Recent Works</h1>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  </div>
+
+  <!-- about section -->
+  <div class="container-fluid bg-primary about-section">
+
+  </div>
+
+  <!-- contact me section -->
+  <div class="container-fluid bg-primary contact-section">
+
+  </div>
+  
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 
 </html>

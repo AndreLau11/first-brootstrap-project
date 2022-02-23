@@ -1,7 +1,9 @@
-body {
-    position: relative; 
-    background-color: #fff;
-  }
-  #portfoliocontent {padding-top:50px;height:500px;color: #fff; }
-  #aboutme {padding-top:50px;height:500px;color: #fff; }
-  #contactme {padding-top:50px;height:500px;color: #fff; }
+*{
+  box-sizing: border-box;
+}
+
+.main-section {
+  background-image: url("images/DeskTop-mainsection-bg.png");
+  background-size: cover;
+}
+
