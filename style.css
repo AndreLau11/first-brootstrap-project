@@ -1,0 +1,18 @@
+*{
+  box-sizing: border-box;
+}
+
+.main-section {
+  background-image: url("images/DeskTop-mainsection-bg.png");
+  background-size: cover;
+}
+
+.card>p {
+  color: #172B4D;
+}
+
+
+.modal-image {
+  width: 872px;
+  height: 616px;
+}
